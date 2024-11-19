@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "tsx --watch index.ts",
-    "client": "tsx --watch client.ts"
+    "client": "tsx --watch client.ts",
+    "build": "tsc ./index.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -15,7 +16,6 @@
     "express": "^4.21.1",
     "http": "^0.0.1-security",
     "lodash": "^4.17.21",
-    "socket.io": "^4.8.1",
-    "socket.io-client": "^4.8.1"
+    "socket.io": "^4.8.1"
   }
 }
