@@ -7,7 +7,7 @@ var port = 3200;
 var server = (0, http_1.createServer)();
 var io = new socket_io_1.Server(server, {
     cors: {
-        origin: ["http://localhost:3000", "http://localhost:3001", "http://localhost:3002"],
+        origin: "*",
         methods: ["GET", "POST"],
         credentials: true,
     },
